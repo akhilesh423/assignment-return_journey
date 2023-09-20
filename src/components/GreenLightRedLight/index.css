@@ -1,0 +1,118 @@
+
+.random-color-box{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.green-bg{
+    background-color: green;
+}
+
+.yellow-bg{
+    background-color: yellow;
+}
+
+.red-bg{
+    background-color: red;
+}
+
+.game-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    max-width: 360px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.game-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main-div{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+.form-container{
+   width: 100%;
+   max-width: 360px;
+   border: 1px solid #000;
+   border-radius: 15px;
+   padding: 20px;
+  }
+  .leader-board-container{
+    border: 1px solid #000;
+  }
+  .first-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .table-container{
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 12px;
+    min-height: 100px;
+    margin-top: 40px;
+  }
+  .tabel-elements{
+    width: 100%;
+    display: flex;
+  }
+
+  .success-submit{
+    color: green;
+    font-family: "Roboto";
+    font-weight: 500;
+  }
+  .result-text{
+    color: #000;
+    font-family: 600;
+    font-family: "Roboto";
+  }
+  @media (min-width:768px){
+    .main-div{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .first-container{
+        flex-direction: row;
+        align-items: center;
+        width: 70%;
+        justify-content: space-around;
+      }
+      .table-container{
+        width: 70%;
+      }
+      .game-container{
+        margin-top: 0px;
+        max-width: 340px;
+      }
+      .form-container{
+        max-width: 340px;
+      }
+      
+  }
